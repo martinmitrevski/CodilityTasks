@@ -22,7 +22,6 @@ expected worst-case space complexity is O(1).
 */
 
 public func solution(N : Int) -> Int {
-    // write your code in Swift 2.2 (Linux)
     let root: Int = Int(sqrt(Double(N)))
     var count = 0
     for i in 1...root {

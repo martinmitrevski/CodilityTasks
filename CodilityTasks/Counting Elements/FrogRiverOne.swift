@@ -49,8 +49,7 @@ Elements of input arrays can be modified.
 
 */
 
-public func solution(X : Int, inout _ A : [Int]) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution(X : Int, _ A : inout [Int]) -> Int {
     var hash = Dictionary<Int, Int>()
     for (index, element) in A.enumerate() {
         hash[element] = 1

@@ -24,8 +24,7 @@ expected worst-case time complexity is O(N);
 expected worst-case space complexity is O(1) (not counting the storage required for input arguments).
 */
 
-public func solution(inout S : String) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution( S : inout String) -> Int {
     var stack = Stack<Character>()
     for str in S.characters {
         if str == "(" {

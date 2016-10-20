@@ -48,8 +48,7 @@ Complexity:
 
 */
 
-public func solution(inout A : [Int]) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution( A : inout [Int]) -> Int {
     let sorted = A.sort {
         return $0 > $1
     }

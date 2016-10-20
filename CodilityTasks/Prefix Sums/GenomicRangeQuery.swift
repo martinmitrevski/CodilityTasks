@@ -47,8 +47,7 @@ Elements of input arrays can be modified.
 
 */
 
-public func solution(inout S : String, inout _ P : [Int], inout _ Q : [Int]) -> [Int] {
-    // write your code in Swift 2.2 (Linux)
+public func solution(inout S : String, _ P : inout [Int], inout _ Q : [Int]) -> [Int] {
     let characters: [Character] = Array(S.characters)
     let impactFactors: Dictionary<Character, Int> = [ "A" : 1, "C" : 2, "G" : 3, "T" : 4 ]
     var prefixSums = Array(count: characters.count + 1, repeatedValue: [0,0,0,0])

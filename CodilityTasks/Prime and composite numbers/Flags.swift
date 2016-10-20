@@ -66,12 +66,11 @@ Elements of input arrays can be modified.
 
 */
 
-public func solution(inout A : [Int]) -> Int {
+public func solution( A : inout [Int]) -> Int {
 
     if A.count < 3 {
         return 0
     }
-    // write your code in Swift 2.2 (Linux)
     var peaks = [Int]()
     for i in 1..<A.count - 1 {
         if A[i] > A[i+1] && A[i] > A[i-1] {

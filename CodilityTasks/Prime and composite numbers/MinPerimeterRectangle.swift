@@ -31,7 +31,6 @@ expected worst-case space complexity is O(1).
 */
 
 public func solution(N : Int) -> Int {
-    // write your code in Swift 2.2 (Linux)
     var perimeters = [Int]()
     let root: Int = Int(sqrt(Double(N)))
     for i in 1...root {

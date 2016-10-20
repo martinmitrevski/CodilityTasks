@@ -27,8 +27,7 @@ Elements of input arrays can be modified.
 
 */
 
-public func solution(inout A : [Int]) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution( A : inout [Int]) -> Int {
     if A.count == 1 {
         let element = A[0]
         if element - 1 > 0 {

@@ -25,7 +25,7 @@ expected worst-case space complexity is O(N) (not counting the storage required 
 
 */
 
-public func solution(inout S : String) -> Int {
+public func solution( S : inout String) -> Int {
     
     if S.characters.count % 2 != 0 {
         return 0

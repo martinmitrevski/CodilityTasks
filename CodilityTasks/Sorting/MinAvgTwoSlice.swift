@@ -52,8 +52,7 @@ Elements of input arrays can be modified.
 
 */
 
-public func solution(inout A : [Int]) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution( A : inout [Int]) -> Int {
     var previosAverage: Double = Double((A[0] + A[1])/2)
     var previousIndex = 0
     var minimumAverage = previosAverage

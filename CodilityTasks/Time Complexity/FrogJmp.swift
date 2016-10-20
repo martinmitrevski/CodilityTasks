@@ -31,7 +31,6 @@ expected worst-case space complexity is O(1).
 */
 
 public func solution(X : Int, _ Y : Int, _ D : Int) -> Int {
-    // write your code in Swift 2.2 (Linux)
     let remaining = (Y - X) % D
     if remaining == 0 {
         return (Y - X) / D

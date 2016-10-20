@@ -25,7 +25,6 @@ solution:
 */
 
 public func solution(N : Int) -> Int {
-    // write your code in Swift 2.2 (Linux)
     let binary = String(N, radix: 2)
     var binaryGap = false
     var currentGapCount = 0

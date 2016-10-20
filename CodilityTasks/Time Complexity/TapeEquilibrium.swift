@@ -46,8 +46,7 @@ expected worst-case space complexity is O(N), beyond input storage (not counting
 
 */
 
-public func solution(inout A : [Int]) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution( A : inout [Int]) -> Int {
     var temp = Array<Int>()
     for (index, element) in A.enumerate() {
         if index == 0 {

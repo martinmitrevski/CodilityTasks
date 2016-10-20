@@ -64,8 +64,7 @@ Elements of input arrays can be modified.
 */
 
 
-public func solution(N : Int, inout _ A : [Int]) -> [Int] {
-    // write your code in Swift 2.2 (Linux)
+public func solution(N : Int, _ A : inout [Int]) -> [Int] {
     var max = 0
     var elementsOfMax: [Int] = []
     var counters = Array(count: N, repeatedValue: 0)

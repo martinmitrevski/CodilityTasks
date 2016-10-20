@@ -53,8 +53,7 @@ Elements of input arrays can be modified.
 
 */
 
-public func solution(inout A : [Int]) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution( A : inout [Int]) -> Int {
     var result = 0
     var fromLeft = [Int](count:A.count, repeatedValue: 0)
     var fromRight = [Int](count:A.count, repeatedValue: 0)

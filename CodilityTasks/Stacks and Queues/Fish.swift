@@ -44,8 +44,7 @@ Elements of input arrays can be modified.
 
 */
 
-public func solution(inout A : [Int], inout _ B : [Int]) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution( A : inout [Int], _ B : inout [Int]) -> Int {
     var stack = Stack<(Int, Int, Int)>()
     for index in 0..<A.count {
         let size = A[index]

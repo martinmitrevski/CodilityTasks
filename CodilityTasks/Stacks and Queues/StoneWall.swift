@@ -30,7 +30,7 @@ Elements of input arrays can be modified.
 
 */
 
-public func solution(inout H : [Int]) -> Int {
+public func solution( H : inout [Int]) -> Int {
     var blocks = 0
     var stack = [Int](count:H.count, repeatedValue: 0)
     var stackNumber = 0

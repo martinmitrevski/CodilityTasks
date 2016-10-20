@@ -47,8 +47,7 @@ Elements of input arrays can be modified.
 
 */
 
-public func solution(inout A : [Int]) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution( A : inout [Int]) -> Int {
     var leader = A[0]
     
     var stack = Stack<Int>()

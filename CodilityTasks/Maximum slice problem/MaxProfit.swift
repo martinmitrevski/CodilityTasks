@@ -39,8 +39,7 @@ expected worst-case space complexity is O(1), beyond input storage (not counting
 
 */
 
-public func solution(inout A : [Int]) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution( A : inout [Int]) -> Int {
     var maxEnding = 0
     var maxProfit = 0
 	

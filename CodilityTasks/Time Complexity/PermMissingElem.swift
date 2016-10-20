@@ -32,7 +32,7 @@ Elements of input arrays can be modified.
 */
 
 
-public func solution(inout A : [Int]) -> Int {
+public func solution( A : inout [Int]) -> Int {
     var array = Array(count:A.count + 1, repeatedValue:0)
     for element in A {
         array[element - 1] = element

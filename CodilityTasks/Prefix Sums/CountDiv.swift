@@ -22,7 +22,6 @@ expected worst-case space complexity is O(1).
 */
 
 public func solution(A : Int, _ B : Int, _ K : Int) -> Int {
-    // write your code in Swift 2.2 (Linux)
     if K > B {
         if B == 0 {
             return 1

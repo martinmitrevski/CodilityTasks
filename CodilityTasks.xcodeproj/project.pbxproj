@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		E845369C1DB950CF00BC267F /* CodilityTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = E845369A1DB950CF00BC267F /* CodilityTasks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E84536AC1DB950F800BC267F /* Prefix Sums in Resources */ = {isa = PBXBuildFile; fileRef = E84536A21DB950F800BC267F /* Prefix Sums */; };
+		E84536AD1DB950F800BC267F /* Sorting in Resources */ = {isa = PBXBuildFile; fileRef = E84536A31DB950F800BC267F /* Sorting */; };
+		E84536AE1DB950F800BC267F /* Time Complexity in Resources */ = {isa = PBXBuildFile; fileRef = E84536A41DB950F800BC267F /* Time Complexity */; };
+		E84536AF1DB950F800BC267F /* Stacks and Queues in Resources */ = {isa = PBXBuildFile; fileRef = E84536A51DB950F800BC267F /* Stacks and Queues */; };
+		E84536B01DB950F800BC267F /* Prime and composite numbers in Resources */ = {isa = PBXBuildFile; fileRef = E84536A61DB950F800BC267F /* Prime and composite numbers */; };
+		E84536B11DB950F800BC267F /* Maximum slice problem in Resources */ = {isa = PBXBuildFile; fileRef = E84536A71DB950F800BC267F /* Maximum slice problem */; };
+		E84536B21DB950F800BC267F /* Leader in Resources */ = {isa = PBXBuildFile; fileRef = E84536A81DB950F800BC267F /* Leader */; };
+		E84536B31DB950F800BC267F /* Counting Elements in Resources */ = {isa = PBXBuildFile; fileRef = E84536A91DB950F800BC267F /* Counting Elements */; };
+		E84536B41DB950F800BC267F /* Arrays in Resources */ = {isa = PBXBuildFile; fileRef = E84536AA1DB950F800BC267F /* Arrays */; };
+		E84536B51DB950F800BC267F /* Iterations in Resources */ = {isa = PBXBuildFile; fileRef = E84536AB1DB950F800BC267F /* Iterations */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E84536971DB950CF00BC267F /* CodilityTasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodilityTasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E845369A1DB950CF00BC267F /* CodilityTasks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodilityTasks.h; sourceTree = "<group>"; };
 		E845369B1DB950CF00BC267F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84536A21DB950F800BC267F /* Prefix Sums */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Prefix Sums"; sourceTree = "<group>"; };
+		E84536A31DB950F800BC267F /* Sorting */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sorting; sourceTree = "<group>"; };
+		E84536A41DB950F800BC267F /* Time Complexity */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Time Complexity"; sourceTree = "<group>"; };
+		E84536A51DB950F800BC267F /* Stacks and Queues */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Stacks and Queues"; sourceTree = "<group>"; };
+		E84536A61DB950F800BC267F /* Prime and composite numbers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Prime and composite numbers"; sourceTree = "<group>"; };
+		E84536A71DB950F800BC267F /* Maximum slice problem */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Maximum slice problem"; sourceTree = "<group>"; };
+		E84536A81DB950F800BC267F /* Leader */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Leader; sourceTree = "<group>"; };
+		E84536A91DB950F800BC267F /* Counting Elements */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Counting Elements"; sourceTree = "<group>"; };
+		E84536AA1DB950F800BC267F /* Arrays */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Arrays; sourceTree = "<group>"; };
+		E84536AB1DB950F800BC267F /* Iterations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Iterations; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +66,16 @@
 		E84536991DB950CF00BC267F /* CodilityTasks */ = {
 			isa = PBXGroup;
 			children = (
+				E84536A21DB950F800BC267F /* Prefix Sums */,
+				E84536A31DB950F800BC267F /* Sorting */,
+				E84536A41DB950F800BC267F /* Time Complexity */,
+				E84536A51DB950F800BC267F /* Stacks and Queues */,
+				E84536A61DB950F800BC267F /* Prime and composite numbers */,
+				E84536A71DB950F800BC267F /* Maximum slice problem */,
+				E84536A81DB950F800BC267F /* Leader */,
+				E84536A91DB950F800BC267F /* Counting Elements */,
+				E84536AA1DB950F800BC267F /* Arrays */,
+				E84536AB1DB950F800BC267F /* Iterations */,
 				E845369A1DB950CF00BC267F /* CodilityTasks.h */,
 				E845369B1DB950CF00BC267F /* Info.plist */,
 			);
@@ -121,6 +151,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84536B51DB950F800BC267F /* Iterations in Resources */,
+				E84536AE1DB950F800BC267F /* Time Complexity in Resources */,
+				E84536AF1DB950F800BC267F /* Stacks and Queues in Resources */,
+				E84536B01DB950F800BC267F /* Prime and composite numbers in Resources */,
+				E84536AC1DB950F800BC267F /* Prefix Sums in Resources */,
+				E84536B21DB950F800BC267F /* Leader in Resources */,
+				E84536B31DB950F800BC267F /* Counting Elements in Resources */,
+				E84536B11DB950F800BC267F /* Maximum slice problem in Resources */,
+				E84536B41DB950F800BC267F /* Arrays in Resources */,
+				E84536AD1DB950F800BC267F /* Sorting in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

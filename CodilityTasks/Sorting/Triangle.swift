@@ -42,8 +42,7 @@ Elements of input arrays can be modified.
 
 */
 
-public func solution(inout A : [Int]) -> Int {
-    // write your code in Swift 2.2 (Linux)
+public func solution( A : inout [Int]) -> Int {
     let sorted = A.sort { $0 < $1 }
     let count = A.count - 3
     if count < 0 {
