@@ -8,3 +8,5 @@ The tasks in the project are split the same way as in Codility.
 I highly recommend trying to solve the tasks by yourself, instead of looking at the solutions.
 
 Any feedback is more than welcome. Enjoy. 
+
+Blog post: https://martinmitrevski.com/2016/10/20/algorithms-in-swift
