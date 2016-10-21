@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E80EF7461DBA4364001183BC /* Sieve of Eratosthenes in Resources */ = {isa = PBXBuildFile; fileRef = E80EF7451DBA4364001183BC /* Sieve of Eratosthenes */; };
+		E80EF7481DBA4F20001183BC /* Euclidean algorithm in Resources */ = {isa = PBXBuildFile; fileRef = E80EF7471DBA4F20001183BC /* Euclidean algorithm */; };
 		E845369C1DB950CF00BC267F /* CodilityTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = E845369A1DB950CF00BC267F /* CodilityTasks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E84536AC1DB950F800BC267F /* Prefix Sums in Resources */ = {isa = PBXBuildFile; fileRef = E84536A21DB950F800BC267F /* Prefix Sums */; };
 		E84536AD1DB950F800BC267F /* Sorting in Resources */ = {isa = PBXBuildFile; fileRef = E84536A31DB950F800BC267F /* Sorting */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E80EF7451DBA4364001183BC /* Sieve of Eratosthenes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sieve of Eratosthenes"; sourceTree = "<group>"; };
+		E80EF7471DBA4F20001183BC /* Euclidean algorithm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Euclidean algorithm"; sourceTree = "<group>"; };
 		E84536971DB950CF00BC267F /* CodilityTasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodilityTasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E845369A1DB950CF00BC267F /* CodilityTasks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodilityTasks.h; sourceTree = "<group>"; };
 		E845369B1DB950CF00BC267F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 		E84536991DB950CF00BC267F /* CodilityTasks */ = {
 			isa = PBXGroup;
 			children = (
+				E80EF7471DBA4F20001183BC /* Euclidean algorithm */,
+				E80EF7451DBA4364001183BC /* Sieve of Eratosthenes */,
 				E84536A21DB950F800BC267F /* Prefix Sums */,
 				E84536A31DB950F800BC267F /* Sorting */,
 				E84536A41DB950F800BC267F /* Time Complexity */,
@@ -159,6 +165,8 @@
 				E84536B21DB950F800BC267F /* Leader in Resources */,
 				E84536B31DB950F800BC267F /* Counting Elements in Resources */,
 				E84536B11DB950F800BC267F /* Maximum slice problem in Resources */,
+				E80EF7481DBA4F20001183BC /* Euclidean algorithm in Resources */,
+				E80EF7461DBA4364001183BC /* Sieve of Eratosthenes in Resources */,
 				E84536B41DB950F800BC267F /* Arrays in Resources */,
 				E84536AD1DB950F800BC267F /* Sorting in Resources */,
 			);
@@ -331,6 +339,7 @@
 				E84536A11DB950CF00BC267F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
